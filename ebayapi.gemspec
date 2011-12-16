@@ -18,8 +18,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.4"
   
   s.add_dependency("activesupport", [">= 2.3.4"])
-  s.add_dependency("xml-simple", ["~> 1.1.0"])
-  s.add_dependency("xml-mapping", ["~> 0.8.0"])
+  s.add_dependency("xml-simple", ["~> 1.0.11"])
+  s.add_dependency("xml-mapping", ["~> 0.8.1"])
   s.add_dependency("libxml-ruby", ["~> 1.1.4"])
   s.add_dependency("money", [">= 1.7.1"])
 end
